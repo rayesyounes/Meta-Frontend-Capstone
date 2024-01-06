@@ -82,7 +82,6 @@ nav ul li a {
   width: 100%;
   background-color: #495e57;
   display: flex;
-  flex-direction: column;
   align-items: center;
   transition: all 0.3s ease-in-out;
 }
@@ -431,8 +430,14 @@ input[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+  transition: all 0.3s ease-in-out  ;
+  -webkit-transition: all 0.3s ease-in-out  ;
+  -moz-transition: all 0.3s ease-in-out  ;
+  -ms-transition: all 0.3s ease-in-out  ;
+  -o-transition: all 0.3s ease-in-out  ;
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #1d3a1f;
+  color: #fff;
 }
